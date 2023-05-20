@@ -25,3 +25,6 @@ This project was developed using the following technologies:
 ## 🖥 Preview
 
 In the example below I added items to cart, filled an adress and payment option, so finished the order.
+
+![Sem Título](https://github.com/joatancavalcante/coffee-shop/assets/7294833/223c0843-e813-4be2-a8b8-54d8545a19c3)
+
