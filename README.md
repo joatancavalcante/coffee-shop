@@ -21,10 +21,11 @@ This project was developed using the following technologies:
 - Zod
 - Phosphor-React
 - Context-API
+- Framer-Motion
 
 ## 🖥 Preview
 
 In the example below I added items to cart, filled an adress and payment option, so finished the order.
 
-![Sem Título](https://github.com/joatancavalcante/coffee-shop/assets/7294833/223c0843-e813-4be2-a8b8-54d8545a19c3)
+![coffee-shop-video (1)](https://github.com/joatancavalcante/coffee-shop/assets/7294833/81eccb83-2181-43fd-8479-855d79c836df)
 
