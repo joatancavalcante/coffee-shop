@@ -176,18 +176,17 @@ export function Home(){
                     Nossos Cafés
                 </MenuTitle>
                 <MenuItemsContainer>
-
-                {menu.map(item => (
-                    <CardMenu
-                        key={item.id}
-                        id={item.id}
-                        imageCard={item.imagePath}
-                        badgeInfo={item.badgeInfo}
-                        description={item.description}
-                        info={item.info}
-                        value={item.value}
-                    />
-                ))}
+                    {menu.map(item => (
+                        <CardMenu
+                            key={item.id}
+                            id={item.id}
+                            imageCard={item.imagePath}
+                            badgeInfo={item.badgeInfo}
+                            description={item.description}
+                            info={item.info}
+                            value={item.value}
+                        />
+                    ))}
                 </MenuItemsContainer>
             </Menu>    
         </Fragment>

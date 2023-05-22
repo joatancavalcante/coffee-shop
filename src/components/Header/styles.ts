@@ -1,4 +1,5 @@
 import { styled } from "styled-components";
+import { motion } from "framer-motion";
 
 export const Container = styled.header`
     display: flex;
@@ -48,7 +49,7 @@ export const LocationButton = styled.button`
     color: ${(props) => props.theme['purpleDark']};
 `;
 
-export const CartButton = styled.button`
+export const CartButton = styled(motion.button)`
     position: relative;
     display: flex;
     flex-direction: row;

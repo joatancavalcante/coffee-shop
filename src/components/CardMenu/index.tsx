@@ -4,7 +4,6 @@ import { ShoppingCart } from "phosphor-react";
 import { lightTheme } from "../../styles/theme/light";
 import { useContext, useState } from "react";
 import { CartContext, ItemCart } from "../../contexts/CartContext";
-import { v4 as uuid } from 'uuid'
 
 interface CardMenuProps {
     id: string;
@@ -46,7 +45,9 @@ export function CardMenu({id, imageCard, badgeInfo, description, info, value}: C
     }
 
     return (
-        <Container>
+        <Container
+            whileHover={{ scale: 1.1 }}
+        >
             <Main>
                 <img src={imageCard} />
                 <span>{badgeInfo}</span>
@@ -64,7 +65,7 @@ export function CardMenu({id, imageCard, badgeInfo, description, info, value}: C
                         <ShoppingCart color={lightTheme.backgroundDefault} size={20} weight='fill'/>
                     </CartButton>
                 </FooterRightSide>
-            </Footer>              
+            </Footer>         
         </Container>    
     )
 }

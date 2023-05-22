@@ -38,7 +38,7 @@ export function Header(){
                     <MapPin color={lightTheme.purple} size={20} weight='fill'/>
                     Porto Alegre, RS
                 </LocationButton>                
-                    <CartButton onClick={handleGoToCompleteOrder} disabled={cart.length == 0}>
+                    <CartButton onClick={handleGoToCompleteOrder} disabled={cart.length == 0} whileHover={{ scale: 1.1 }}>
                         <ShoppingCart color={lightTheme.yellowDark} size={20} weight='fill'/>
                         <CartBadge>
                             {cart.length}
